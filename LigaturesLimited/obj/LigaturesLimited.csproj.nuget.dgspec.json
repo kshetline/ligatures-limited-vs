@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\git\\ks\\ligatures-limited-vs\\LigaturesLimited\\LigaturesLimited.csproj": {}
+  },
+  "projects": {
+    "C:\\git\\ks\\ligatures-limited-vs\\LigaturesLimited\\LigaturesLimited.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git\\ks\\ligatures-limited-vs\\LigaturesLimited\\LigaturesLimited.csproj",
+        "projectName": "LigaturesLimited",
+        "projectPath": "C:\\git\\ks\\ligatures-limited-vs\\LigaturesLimited\\LigaturesLimited.csproj",
+        "packagesPath": "C:\\Users\\shetk\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\ks\\ligatures-limited-vs\\LigaturesLimited\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shetk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.campsys.com:8090/nuget": {},
+          "http://teamcity.campsys.com/guestAuth/app/nuget/v1/FeedService.svc": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.VSSDK.BuildTools": {
+              "target": "Package",
+              "version": "[16.7.3069, )"
+            },
+            "Microsoft.VisualStudio.SDK": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[16.0.206, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
